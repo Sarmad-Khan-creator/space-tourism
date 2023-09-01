@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400&family=Barlow:ital,wght@0,600;1,500&family=Bellefair&family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Outfit:wght@700&family=PT+Sans&family=Roboto&family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Barlow:ital,wght@0,600;1,500&family=Bellefair&family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Outfit:wght@700&family=PT+Sans&family=Roboto&family=Ubuntu:wght@400;500;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 30px;
+}
+
+.menu {
+  width: 24px;
+  height: 21px;
+  color: #d0d6f9;
+}
+
+.space {
+  width: 327px;
+  height: 276px;
+  text-align: center;
+  margin: 24px 30px;
+}
+
+.space p {
+  color: #d0d6f9;
+  letter-spacing: 2.7px;
+}
+
+p.title {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+}
+
+p.description {
+  font-family: "Barlow", sans-serif;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.space h1 {
+  color: white;
+  font-size: 80px;
+  margin: 16px;
+  font-family: "Bellefair", serif;
+}
+
+.btn {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-block: 81px;
+  margin-inline: 113px;
+  border: 0;
+  background-color: white;
+  color: #0b0d17;
+  font-family: "Bellefair", serif;
+}
+
+.background-image {
+  position: relative;
+  bottom: 708px;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.menu-container {
+  height: 740px;
+  width: 254px;
+  background-color: rgb(255, 255, 255, 0.04);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: -20px;
+  left: 139px;
+  z-index: +5;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  animation: showMenu 1s ease-in;
+}
+
+@keyframes showMenu {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+
+.close {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.close-icon {
+  margin-right: 30px;
+}
+
+.menu-item {
+  margin-top: 50px;
+}
+
+.mobile-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #d0d6f9;
+  list-style: none;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bold;
+}

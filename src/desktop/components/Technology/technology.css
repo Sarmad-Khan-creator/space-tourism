@@ -1,0 +1,78 @@
+
+.flex {
+    display: flex;
+    gap: 150px;
+    width: 100%;
+}
+.order-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+    list-style: none;
+    margin-inline: 0;
+    padding: 0;
+}
+
+.olist-item {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid white;
+    font-size: 32px;
+}
+
+.olist-item:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.vehicle-detail {
+    width: 470px;
+    height: 303px;
+    margin-top: 45px;
+}
+
+.terminology {
+    font-size: 20px;
+    letter-spacing: 2.7px;
+    margin: 0 0 15px 0;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.vehicle-heading{
+    font-family: "Bellefair", serif;
+    color: white;
+    letter-spacing: 0px;
+    font-size: 56px;
+    font-weight: normal;
+    margin: 0 0 15px 0;
+}
+
+.vehicle-description {
+    font-size: 18px;
+    line-height: 25px;
+    font-family: "Barlow", sans-serif;
+}
+
+.technology-image {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 50px;
+}
+
+.tech-1, .tech-2, .tech-3 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-1 {
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,69 @@
+.mobile-crew-image {
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+}
+
+.mobile-crew {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-crew-line {
+    width: 350px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-dots {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.dots-button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #979797;
+    border: 0;
+}
+
+.btn-1 {
+    background-color: white;
+}
+
+.mobile-crew-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-designation {
+    font-size: 16px;
+    font-family: "Bellefair", serif;
+    color: #d0d6f9;
+    letter-spacing: 1.5px;
+}
+
+.mobile-name {
+    font-size: 24px;
+    color: white;
+    font-family: "Bellefair", serif;
+    text-transform: uppercase;
+}
+
+.mobile-description {
+    color: #D0D6F9;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    margin-inline: 20px;
+}

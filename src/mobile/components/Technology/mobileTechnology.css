@@ -1,0 +1,82 @@
+
+.mobile-technology {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.title {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2.7px;
+    color: #d0d6f9;
+    font-weight: bold;
+}
+
+.title-span {
+    color: white;
+    font-weight: normal;
+}
+
+.mobile-tech-image {
+    height: 170px;
+    width: 100%;
+}
+
+.mobile-tech-navigation {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+}
+
+.mobile-tech-nav-item {
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Bellefair", serif;
+}
+
+.nav1 {
+    background-color: white;
+    color: black;
+}
+
+.technology-detail {
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-terminology {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #d0d6f9;
+    letter-spacing: 2.36px;
+}
+
+.mobile-vehicle-title {
+    color: white;
+    font-size: 24px;
+    font-family: "Bellefair", serif;
+}
+
+.mobile-vehicle-description {
+    font-size: 15px;
+    line-height: 20px;
+    color: #d0d6f9;
+    text-align: center;
+}
