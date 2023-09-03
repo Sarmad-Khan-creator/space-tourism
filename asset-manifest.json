@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/space-tuorism/static/css/main.9edaf5cc.css",
-    "main.js": "/space-tuorism/static/js/main.44362e94.js",
+    "main.css": "/space-tuorism/static/css/main.be41f69d.css",
+    "main.js": "/space-tuorism/static/js/main.54606e28.js",
     "static/media/background-home-desktop.jpg": "/space-tuorism/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
     "static/media/background-destination-desktop.jpg": "/space-tuorism/static/media/background-destination-desktop.468b922c69bf5499b4bc.jpg",
     "static/media/image-anousheh-ansari.webp": "/space-tuorism/static/media/image-anousheh-ansari.bb42b775ee0b12430f3a.webp",
@@ -26,11 +26,11 @@
     "static/media/logo.svg": "/space-tuorism/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
     "static/media/icon-close.svg": "/space-tuorism/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
     "static/media/icon-hamburger.svg": "/space-tuorism/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
-    "main.9edaf5cc.css.map": "/space-tuorism/static/css/main.9edaf5cc.css.map",
-    "main.44362e94.js.map": "/space-tuorism/static/js/main.44362e94.js.map"
+    "main.be41f69d.css.map": "/space-tuorism/static/css/main.be41f69d.css.map",
+    "main.54606e28.js.map": "/space-tuorism/static/js/main.54606e28.js.map"
   },
   "entrypoints": [
-    "static/css/main.9edaf5cc.css",
-    "static/js/main.44362e94.js"
+    "static/css/main.be41f69d.css",
+    "static/js/main.54606e28.js"
   ]
 }
